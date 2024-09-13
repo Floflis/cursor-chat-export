@@ -1,12 +1,12 @@
-commit QmZ134S28hRLGSKFdiN11EKw5m4aeaDoPscsibXPpoGt3t
-Branch: main
+commit QmXpCqZWRXYkPM8gzbMU3DAje2ijNrWwYjjJSHcxhEZKzy
+Branch: somogyijanos-main
 Signed-off by: danimesq.eth (0xDDfC2e10702d8A781727A34D83B3bb3CA94a3E91)
-Signature: 161946110cf485ab72b53463b81b1952727dc632e1832755dc769552304ed341698642e8f5be19729a6ff19906382190417639ebc2f67b791a3559fa63e4113201
+Signature: 47abe6e47482bac7a78e16eedca14f55c4c0602544fa9fc7687a9ee896ba4c7d49d90ef56cc6e397007f3416e577ab46477e98a6b48f92070ef30a4cf802212801
 
 ------------------------------
 
-Commit CID if including git's SHA1: QmWZGDYak3uA2fhFonVutEPgJJica6vgKGjoW4ESK8ywUi
-Commit CID if containing only file hashes: 
+Commit CID if including git's SHA1: Qmeq86JMivrLCvECWFYkZ1tnTPZqj7NQS53s7nyaFDaHPx
+Commit CID if containing only file hashes: QmaaH6qZ2ErN41JcqSfBVjXn9tKXrQ6RPek6gkibZc8m6K
 
 ------------------------------
 
@@ -17,3 +17,23 @@ Remote URL: https://github.com/Floflis/cursor-chat-export.git
 
 ------------------------------
 
+chown -h 1000:1000 '.env.example'
+chmod 0664 '.env.example'
+/usr/bin/touch -hcmd "2024-09-13 11:20:37.2830769000 -0300" '.env.example'
+/usr/bin/touch -hcad "2024-09-13 11:20:48.8679734000 -0300" '.env.example'
+chown -h 1000:1000 '.gitignore'
+chmod 0664 '.gitignore'
+/usr/bin/touch -hcmd "2024-09-13 11:20:37.2840769000 -0300" '.gitignore'
+/usr/bin/touch -hcad "2024-09-13 11:20:48.8689734000 -0300" '.gitignore'
+chown -h 1000:1000 'README.md'
+chmod 0664 'README.md'
+/usr/bin/touch -hcmd "2024-09-13 11:20:37.2840769000 -0300" 'README.md'
+/usr/bin/touch -hcad "2024-09-13 11:20:48.8679734000 -0300" 'README.md'
+chown -h 1000:1000 'chat.py'
+chmod 0775 'chat.py'
+/usr/bin/touch -hcmd "2024-09-13 11:20:37.2840769000 -0300" 'chat.py'
+/usr/bin/touch -hcad "2024-09-13 11:21:12.9427595000 -0300" 'chat.py'
+chown -h 1000:1000 'src/export.py'
+chmod 0664 'src/export.py'
+/usr/bin/touch -hcmd "2024-09-13 11:20:37.2850769000 -0300" 'src/export.py'
+/usr/bin/touch -hcad "2024-09-13 11:21:12.9427595000 -0300" 'src/export.py'
